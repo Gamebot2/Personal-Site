@@ -2,6 +2,14 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+body, html {
+    background-color: #333;
+}
+
+h2, h1, p {
+    color: white;
+}
+
 .center {
     text-align: center;
 }
@@ -25,7 +33,7 @@ body {
 }
 
 .white {
-    color: #000;
+    color: #fff;
 }
 
 .hover>li>a:hover {
@@ -40,7 +48,7 @@ body {
 }
 
 .hover>li>a {
-    color: #000;
+    color: #fff;
     border-radius: 4px;
 }
 
@@ -81,8 +89,8 @@ body {
 }
 
 .btn-dark {
-    color: #333;
-    border-color: #333;
+    color: #fff;
+    border-color: #fff;
 }
 
 .desc {
@@ -93,7 +101,7 @@ body {
 }
 
 .desc-dark {
-    color: #333;
+    color: #fff;
 }
 
 .banner {
@@ -103,30 +111,11 @@ body {
     background-color: #e6e6e6;
 }
 
-.graded {
-    background-image: url("imgs/graded.PNG");
-    background-color: #9b2fae;
-    background-size: cover;
-    background-position-x: 100%;
-}
 
-.codescrim {
+.cadenza {
     background-color: #363750;
     background-size: cover;
     background-position-x: 100%;
-    background-image: url("imgs/codescrim.png");
-}
-
-.posted {
-    background-image: url("imgs/posted-bg.png");
-    background-size: cover;
-    background-position-y: -80px;
-}
-
-.layman {
-    background-image: url("imgs/layman.PNG");
-    background-size: cover;
-    background-position-y: -35px;
 }
 
 p {
@@ -149,6 +138,12 @@ p {
 
 .pad {
     margin-top: 50px;
+}
+
+td {
+    width: 33%;
+    text-align: center;
+    border-bottom: none;
 }
 
 @media only screen and (max-device-width: 480px) {
