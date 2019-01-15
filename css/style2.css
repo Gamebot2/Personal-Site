@@ -22,19 +22,19 @@ h4 {
 
 .bg-1 {
     background-color: #474e5d;
-    /* Gray */
+    /* Gray Background */
     color: #ffffff;
 }
 
 .bg-2 {
     background-color: teal;
-    /* Teal */
+    /* Teal Background */
     color: #ffffff;
 }
 
 .bg-3 {
     background-color: #eee;
-    /* White */
+    /* White Background*/
     color: #555555;
 }
 
@@ -77,15 +77,22 @@ a:visited {
 }
 
 a:active {
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
+    
     text-decoration: none;
-    color: teal;
+    color: lightblue;
 }
 
 .desc {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.siteContainer {
+    margin-bottom: 20px;
 }
