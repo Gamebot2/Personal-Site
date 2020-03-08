@@ -10,6 +10,17 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-145441545-2');
+
+
+		function sendEvent(category, label, action, value) {
+			console.log(category);
+			gtag('event', action, {
+  				'event_category' : category,
+  				'event_label' : label
+			});
+			console.log('SUCCESS');
+			return true;
+		}
 	</script>
 
 
@@ -132,7 +143,7 @@
 				<div class="row">
 					<div class="col-4 col-12-mobile">
 						<article class="item">
-							<a href="http://veggietb.gamebot2.com" class="image fit"><img src="images/VeggieTB.png"
+							<a href="http://veggietb.gamebot2.com" onclick="return sendEvent('projects', 'link', 'VeggieTB', 0);" class="image fit"><img src="images/VeggieTB.png"
 									alt="" /></a>
 							<header>
 								<h3>Made for TAMU Datathon 2019- data science analysis of vegetarian taco/burrito
@@ -141,7 +152,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="https://github.com/Gamebot3/Index-Predictor" class="image fit"><img
+							<a href="https://github.com/Gamebot3/Index-Predictor" onclick="return sendEvent('projects', 'link', 'Index Predictor', 0);" class="image fit"><img
 									src="images/IndexPredictor.png" alt="" /></a>
 							<header>
 								<h3>Using machine learning to predict future values of the S&P 500 and other important
@@ -150,7 +161,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="https://drive.google.com/open?id=1ihgTKpqbpTKCJ2mQo80858xej4XORXCt"
+							<a href="https://drive.google.com/open?id=1ihgTKpqbpTKCJ2mQo80858xej4XORXCt" onclick="return sendEvent('projects', 'link', 'JainML', 0);"
 								class="image fit"><img src="images/JainML.png" alt="" /></a>
 							<header>
 								<h3>Research paper studying loop depth and call stack information in cache replacement.
@@ -159,7 +170,7 @@
 						</article>
 
 						<article class="item">
-							<a href="https://gamebot3.github.io/GideonStudentApp/" class="image fit"><img
+							<a href="https://gamebot3.github.io/GideonStudentApp/" onclick="return sendEvent('projects', 'link', 'Gideon Student App', 0);" class="image fit"><img
 									src="images/Gideon.png" alt="" /></a>
 							<header>
 								<h3>Web Application to keep track of online student progress and display dashboards.
@@ -167,7 +178,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="http://anshjain.weebly.com" class="image fit"><img src="images/Portfolio.png"
+							<a href="http://anshjain.weebly.com" onclick="return sendEvent('projects', 'link', 'ISM Portfolio', 0);" class="image fit"><img src="images/Portfolio.png"
 									alt="" /></a>
 							<header>
 								<h3>Year-long research course into web development with software architect from nThrive.
@@ -177,7 +188,7 @@
 					</div>
 					<div class="col-4 col-12-mobile">
 						<article class="item">
-							<a href="https://github.com/Gamebot3/TweetTrees" class="image fit"><img src="images/TweetTrees.png"
+							<a href="https://github.com/Gamebot3/TweetTrees" onclick="return sendEvent('projects', 'link', 'TweetTrees', 0);" class="image fit"><img src="images/TweetTrees.png"
 									alt="" /></a>
 							<header>
 								<h3>HackTX 2019- Twitter Bot to keep track of TeamTrees progress and run a regression model.
@@ -185,7 +196,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="https://gamebot3.github.io/noted/" class="image fit"><img src="images/Noted.png"
+							<a href="https://gamebot3.github.io/noted/" onclick="return sendEvent('projects', 'link', 'Noted', 0);" class="image fit"><img src="images/Noted.png"
 									alt="" /></a>
 							<header>
 								<h3>React Native app for student photo tagging. TamuHack 2019- Best Google Cloud App.
@@ -193,7 +204,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="http://cadenza5.gamebot2.com" class="image fit"><img src="images/Cadenza5.png"
+							<a href="http://cadenza5.gamebot2.com" onclick="return sendEvent('projects', 'link', 'Cadenza 5', 0);" class="image fit"><img src="images/Cadenza5.png"
 									alt="" /></a>
 							<header>
 								<h3>Website I made for the chamber group I started with my friends at UT, Cadenza 5.
@@ -201,14 +212,14 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="https://chrome.google.com/webstore/detail/i-need-some-space/pnfnlobicflcdpdgggjmfdpodnpmepgg"
+							<a href="https://chrome.google.com/webstore/detail/i-need-some-space/pnfnlobicflcdpdgggjmfdpodnpmepgg" onclick="return sendEvent('projects', 'link', 'I Need Some Space', 0);"
 								class="image fit"><img src="images/INSS.png" alt="" /></a>
 							<header>
 								<h3>New Tab chrome extension which gives space-themed backgrounds via NASA APIs.</h3>
 							</header>
 						</article>
 						<article class="item">
-							<a href="https://github.com/Gamebot3/TaskManager" class="image fit"><img
+							<a href="https://github.com/Gamebot3/TaskManager" onclick="return sendEvent('projects', 'link', 'Task Manager', 0);" class="image fit"><img
 									src="images/Task Manager.png" alt="" /></a>
 							<header>
 								<h3>First full stack web application: developed for my ISM project in my senior year of
@@ -218,7 +229,7 @@
 					</div>
 					<div class="col-4 col-12-mobile">
 						<article class="item">
-							<a href="http://tracer.gamebot2.com" class="image fit"><img src="images/Tracer.png"
+							<a href="http://tracer.gamebot2.com" onclick="return sendEvent('projects', 'link', 'Tracer', 0);" class="image fit"><img src="images/Tracer.png"
 									alt="" /></a>
 							<header>
 								<h3>Game created for HackMIT- objective is to teach young students how to read code
@@ -227,7 +238,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="http://aeneid.gamebot2.com" class="image fit"><img src="images/Aeneid.png"
+							<a href="http://aeneid.gamebot2.com" onclick="return sendEvent('projects', 'link', 'Aeneid', 0);" class="image fit"><img src="images/Aeneid.png"
 									alt="" /></a>
 							<header>
 								<h3>Website I created to tell the story of the Aeneid, written by Virgil in 18 BCE.
@@ -235,7 +246,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="http://shark.gamebot2.com" class="image fit"><img src="images/Shark.png"
+							<a href="http://shark.gamebot2.com" onclick="return sendEvent('projects', 'link', 'Secret Hitler', 0);" class="image fit"><img src="images/Shark.png"
 									alt="" /></a>
 							<header>
 								<h3>Full-stack web application to track and display records for the popular board game
@@ -243,7 +254,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="https://gamebot3.github.io/batch-playground/" class="image fit"><img
+							<a href="https://gamebot3.github.io/batch-playground/" onclick="return sendEvent('projects', 'link', 'Batch Playground', 0);" class="image fit"><img
 									src="images/Shell.png" alt="" /></a>
 							<header>
 								<h3>Scripting system to handle automatic file assignment and renaming for Gideon
@@ -251,7 +262,7 @@
 							</header>
 						</article>
 						<article class="item">
-							<a href="https://geooot.com/ButtonSmash/index.html" class="image fit"><img
+							<a href="https://geooot.com/ButtonSmash/index.html" onclick="return sendEvent('projects', 'link', 'Button Smash', 0);" class="image fit"><img
 									src="images/Button Smash.png" alt="" /></a>
 							<header>
 								<h3>Created for CodeDay, a 24-hour coding marathon for middle and high school students.
@@ -312,13 +323,13 @@
 					<tr>
 						<td></td>
 						<td><img src="images/Testing.jpg" style="height:150px;width:auto;margin-top:30px;" />
+							<h3>ML for Trading Specialization by NY Institute of Finance</h3>
+							<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/LPUF426FXETB"
+								target="_blank">View Certificate</a>
 							<h3>Machine Learning by Stanford University</h3>
 							<a href="https://www.coursera.org/account/accomplishments/verify/W6YUEGDXZY9L"
 								target="_blank">View Certificate</a>
 							<br />
-							<h3>Introduction to ML and Trading by NY Institute of Finance</h3>
-							<a href="https://coursera.org/share/ba43364ed26533a0bc13ba4f70ef6bb7"
-								target="_blank">View Certificate</a>
 						</td>
 						<td></td>
 					</tr>
@@ -335,9 +346,8 @@
 							<h3>Fundamentals of Digital Marketing</h3>
 							<a href="https://anshjainpublic.s3.us-east-2.amazonaws.com/Google_Digital_Marketing_Cert.pdf"
 								target="_blank">View Certificate</a>
-							<h3>Google Analytics Beginner Course</h3>
-							<a href="https://analytics.google.com/analytics/academy/certificate/6GO-cqOCSwqnI0WUl66gaA"
-								target="_blank">View Certificate</a>
+							<h3>Google Analytics Advanced Course</h3><a href="https://analytics.google.com/analytics/academy/certificate/r4MOuXyoRLqdGAMjSNBYGA"
+							target="blank">View Certificate</a>
 
 						</td>
 						<td></td>
