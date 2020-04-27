@@ -1,0 +1,14 @@
+.blogtitle {
+    font-size: 1.8em;
+}
+
+.blogtag {
+    font-size: 1.0em;
+    color: #1368f0;
+    font-weight: bold;
+}
+
+.blogpost {
+    padding-left: 10px;  
+    text-align: left;
+}
