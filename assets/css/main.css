@@ -335,6 +335,15 @@ br.clear {
     width: 1400px;
 }
 
+.badge {
+    width: 50%;
+    min-width: 250px;
+}
+
+td {
+    text-align: center;
+}
+
 @media screen and (min-width: 961px) and (max-width: 1880px) {
     .container {
         width: 1200px;
