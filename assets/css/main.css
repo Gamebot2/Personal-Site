@@ -344,6 +344,11 @@ td {
     text-align: center;
 }
 
+.slight {
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
 @media screen and (min-width: 961px) and (max-width: 1880px) {
     .container {
         width: 1200px;
@@ -1824,7 +1829,7 @@ button:active,
 .item header {
     background: #fff;
     margin: 0;
-    padding: 1em 0 1em 0;
+    padding: 1em 0.5em 1em 0.5em;
     font-size: 0.8em;
 }
 
