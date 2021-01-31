@@ -308,7 +308,7 @@ games =  [
         "visuals": 1.5,
         "review_1": "Bought this game on a whim, just because I like monograms a lot. The trailers made it look like Ace Attorney Investigations, except with monograms thrown in every time you find a piece of evidence. And that's exactly what it was. Just like Ace Attorney, the visuals were solid and the characters surprisingly deep, with some decent music to back it up. The gameplay was pretty much entirely monograms and stepping through the story, but it kept me engaged throughout the game nevertheless.",
         "review_2": "I will say the story was pretty great. Towards the end, I found myself basically skipping all the huge ass monograms just so I could progress in the story. One of those games that gets you really invested in the characters, though I'm not sure each of them was used to their fullest potential. Great game though, definitely recommend it.",
-        "img_path": "gameimages/mbn.png",
+        "img_path": "gameimages/mbn.PNG",
         "console_path": "gameimages/nswitch.png"
     },
     {
@@ -374,6 +374,19 @@ games =  [
         "review_1": "Super Mario 3D All-Stars is a remaster of Super Mario 64, Super Mario Sunshine, and Super Mario Galaxy. The fact that you get 3 games for one is probably the best part of this collection, and since they're 3D Mario games, they're all rock solid. My favorite by far is Sunshine, then Galaxy, and last but not least, 64.",
         "review_2": "For most of the categories, this game is similar to Odyssey: terrible in the story and character departments, but solid in visuals and especially gameplay. I also scored the music well in this one cause a lot of the themes bring back some good memories, and it also includes a super nice built-in soundtrack player. Rock solid collection for any Mario fan.",
         "img_path": "gameimages/sm3d.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Super Mario Party",
+        "code": "smp",
+        "story": 0,
+        "gameplay": 1.5,
+        "characters": 1.5,
+        "music": 1,
+        "visuals": 1.5,
+        "review_1": "A bit underwhelming, maybe because I didn't properly set my expectations when I played it. Fortunately a friend had bought it, so I didn't have to spend money, since the main problem with this game is an overall lack of content for the price. The minigames, as always, are the best part of Mario Party, but I was kind of hoping for a Smash Ultimate style roster of minigames. It just felt like there weren't enough.",
+        "review_2": "As far as visuals and music go, they were both fine. Nothing to write home about. The character selection was pretty solid, and I did enjoy the cool character-specific dice. Other than that though, this game was pretty average. Would recommend only with a fat discount.",
+        "img_path": "gameimages/smp.jpg",
         "console_path": "gameimages/nswitch.png"
     }
 ]

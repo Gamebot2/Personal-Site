@@ -43,9 +43,9 @@ for(var i = 0; i < games.length; i++) {
     if (r2.length > 0) { div.innerHTML += `<hr><h5 class="reviewtext">${r2}</h5>`; }
     document.getElementById('reviewSection').appendChild(div);
 
+
     // Create the image div and append to appropriate ColumnI element
     const article = document.createElement('article');
-
     article.className = 'item';
     
     article.innerHTML += `
@@ -74,7 +74,6 @@ for(var i = 0; i < games.length; i++) {
     `;
 
     column_id = `Column${column}`;
-    console.log(column_id);
     document.getElementById(column_id).appendChild(article);
     column = (column + 1) % 3;
 }
