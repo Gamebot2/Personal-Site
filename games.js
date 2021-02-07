@@ -52,6 +52,19 @@ games =  [
         "console_path": "gameimages/nswitch.png"
     },
     {
+        "title": "Persona 5",
+        "code": "p5",
+        "story": 1.75,
+        "gameplay": 2,
+        "characters": 2.25,
+        "music": 2,
+        "visuals": 2,
+        "review_1": "My latest obsession. I'm writing this review just after spending 14 hours straight with this game, on my first day playing it. I watched the story in advance because I thought I'd never get the chance to play this game, and yet I'm still enjoying it way more than I thought possible. It's almost everything I want in a video game, and yet it's like no other game I've played before.",
+        "review_2": "The story is pretty solid, (kinda Xenoblade-esque), and the gameplay is more addicting than you'd expect. But where this game really blows it out of the park is the characters, music, and art style. It's just so fresh that the entire game feels like a once-in-a-lifetime experience, and I cannot wait for Strikers to come out just so I can spend some more time with this great cast of characters. Highly, highly recommend.",
+        "img_path": "gameimages/p5.png",
+        "console_path": "gameimages/ps3.jpg"
+    },
+    {
         "title": "The Legend of Zelda: Breath of the Wild",
         "code": "botw",
         "story": 1,
