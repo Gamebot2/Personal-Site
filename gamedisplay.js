@@ -31,6 +31,14 @@ for(var i = 0; i < games.length; i++) {
     var r2 = game.review_2;
     var ip = game.img_path;
     var cp = game.console_path;
+    var guest = '';
+    if ('guest' in game) {
+        guest = game.guest;
+    }
+
+    var scoreSlot = total;
+    if (total == 0) { scoreSlot = "??"; }
+    if (total > 10) { scoreSlot = "10*"; }
 
     // Create the review div and append it to the reviewSection element
     const div = document.createElement('div');
@@ -41,6 +49,9 @@ for(var i = 0; i < games.length; i++) {
     div.innerHTML += `<h5 class="title">${title}</h5>`;
     div.innerHTML += `<h5 class="reviewtext">${r1}</h5>`;
     if (r2.length > 0) { div.innerHTML += `<hr><h5 class="reviewtext">${r2}</h5>`; }
+    if (guest.length > 0) {
+        div.innerHTML += `<h5 class="title">Guest review: ${guest}</h5>`;
+    }
     document.getElementById('reviewSection').appendChild(div);
 
 
@@ -66,7 +77,7 @@ for(var i = 0; i < games.length; i++) {
                     </header>
                 </td>
                 <td class="hullo">
-                    <h1 class="score">${total}</h1>
+                    <h1 class="score">${scoreSlot}</h1>
                     <img class="switch" src="${cp}">
                 </td>
             </tr>
