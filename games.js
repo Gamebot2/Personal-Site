@@ -108,27 +108,14 @@ games =  [
     {
         "title": "Persona 5: Strikers",
         "code": "p5s",
-        "story": 0,
-        "gameplay": 0,
-        "characters": 0,
-        "music": 0,
-        "visuals": 0,
-        "review_1": "Currently playing: full review coming soon!",
-        "review_2": "So far: great music, visuals, and of course characters. Looking forward to playing more of this!",
+        "story": 1.5,
+        "gameplay": 1.25,
+        "characters": 2.25,
+        "music": 2,
+        "visuals": 2,
+        "review_1": "Incredible game! The announcement for this game was why I got into the Persona series, just like how AoC got me into the BoTW series. Having really enjoyed Age of Calamity, I went into this expecting something similar, but it was a totally different ballgame. While the gameplay was not nearly as refined as Age of Calamity (the damage taken was way too high), this game clearly excelled in other areas.",
+        "review_2": "Obviously, the best part of this game was the characters, which are the same as the ones from Persona 5. I loved seeing the new adventure we went on with them, and surprisingly, the story actually held up to that of Persona 5 itself. It wasn't as grand, but it was certainly true to the style, and comfortably good enough for a game of this scale. The music, as always, was fantastic, and the visuals were pretty solid as well. Although this title might seem like a rolled back version of Persona 5, I think it really did do some things better, like showing how cool the main characters were in battle sequences. Overall, highly recommend this game to any Persona or Hack n Slash fan!",
         "img_path": "gameimages/p5s.jpg",
-        "console_path": "gameimages/nswitch.png"
-    },
-    {
-        "title": "Project Triangle Strategy",
-        "code": "pts",
-        "story": 0,
-        "gameplay": 0,
-        "characters": 0,
-        "music": 0,
-        "visuals": 0,
-        "review_1": "Currently playing: full review coming soon!",
-        "review_2": "Just played the demo so far since this game comes out in 2022, but it was great. The tactics are pretty intense and it's pretty difficult, but as far as presentation is concerned, it's next to flawless. Really looking forward to giving the Octopath team another chance when this game releases next year.",
-        "img_path": "gameimages/pts.jpg",
         "console_path": "gameimages/nswitch.png"
     },
     {
@@ -207,6 +194,19 @@ games =  [
         "review_1": "Like Torna the Golden Country, this story was included as part of the expansion pack for the base game of Xenoblade Chronicles: Definitive Edition. I was hyped for it since the day it was announced, and I played it before replaying the base game when it came out. It was short and sweet for sure, and the best part about it was that we finally got to explore the Bionis Shoulder area, which many players, including myself, had been curious about since the original game's release in 2009. It was worth it.",
         "review_2": "Visuals and characters were of course amazing, I'm a sucker for Melia and Shulk. I also really liked Kino and Nene, which is rare since I often don't like Nopon all that much. The music is also heavenly, with only 7 or so new tracks but almost all of them straight masterpieces. Sadly, the story fell short of my expectations, especially since I was hoping for a link to Xenoblade Chronicles 2's post-game world in there somewhere. Either way, I still recommend this to anyone who enjoyed either Xenoblade game.",
         "img_path": "gameimages/xcfc.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Child of Light",
+        "code": "col",
+        "story": 1.25,
+        "gameplay": 2.0,
+        "characters": 1.75,
+        "music": 2.5,
+        "visuals": 2,
+        "review_1": "Played this absolute gem of a game a long time ago, but I'm adding the review now since I've been listening to the soundtrack a lot lately. Although this is a relatively cheap, short game, it was developed incredibly, and everything about it is clearly very polished. The visuals and music especially are stunning for a game of its caliber, and they were what convinced me to purchase it in the first place.",
+        "review_2": "The story is pretty standard for an RPG-style game, but one of the most interesting things about it is that literally everything is told in rhyme. The entire game feels like a very long poem, which just adds to the overall beauty even more. The characters, especially Aurora, are very engaging, and the gameplay was addicting enough to keep me thoroughly engaged throughout my playthrough. My only gripe is that I wish this game was a bit longer. Incredible title, and highly recommend.",
+        "img_path": "gameimages/col.jpg",
         "console_path": "gameimages/nswitch.png"
     },
     {
@@ -468,7 +468,20 @@ games =  [
         "review_2": "As far as visuals and music go, they were both fine. Nothing to write home about. The character selection was pretty solid, and I did enjoy the cool character-specific dice. Other than that though, this game was pretty average. Would recommend only with a fat discount.",
         "img_path": "gameimages/smp.jpg",
         "console_path": "gameimages/nswitch.png"
-    }
+    },
+    {
+        "title": "Project Triangle Strategy",
+        "code": "pts",
+        "story": 0,
+        "gameplay": 0,
+        "characters": 0,
+        "music": 0,
+        "visuals": 0,
+        "review_1": "Currently playing: full review coming soon!",
+        "review_2": "Just played the demo so far since this game comes out in 2022, but it was great. The tactics are pretty intense and it's pretty difficult, but as far as presentation is concerned, it's next to flawless. Really looking forward to giving the Octopath team another chance when this game releases next year.",
+        "img_path": "gameimages/pts.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
 ]
 
 /*
