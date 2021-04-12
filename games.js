@@ -106,6 +106,19 @@ games =  [
         "guest": "Didi Zhou"
     },
     {
+        "title": "Valkyria Chronicles 4",
+        "code": "vc4",
+        "story": 0,
+        "gameplay": 0,
+        "characters": 0,
+        "music": 0,
+        "visuals": 0,
+        "review_1": "Currently playing: Full review coming soon!",
+        "review_2": "So far: visuals are definitely nothing to write home about, and the music tracks are either annoying or amazing. The gameplay is definitely a unique experience, and I'm enjoying the story so far. Love the characters. I suspect it'll get something around the 7.5-8.5 range.",
+        "img_path": "gameimages/vc4.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
         "title": "Persona 5: Strikers",
         "code": "p5s",
         "story": 1.5,
