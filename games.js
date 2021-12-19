@@ -1,28 +1,41 @@
 games =  [
     {
-        "title": "Bravely Default II",
-        "code": "bd2",
-        "story": 1.75,
-        "gameplay": 2,
-        "characters": 2.5,
+        "title": "Tales of Arise",
+        "code": "toa",
+        "story": 2,
+        "gameplay": 1.5,
+        "characters": 2.25,
         "music": 2,
-        "visuals": 1.75,
-        "review_1": "One of the best games I have ever played, and easily one of my favorites. I bought this one cause I loved Bravely Second on 3DS, but this one somehow blew it out of the water. Highly, highly recommend this one to any RPG fan.",
-        "review_2": "The story, despite using a relatively cliche premise, is actually pretty solid. There were plot twists and endings that I didn't see coming, which is always a good sign. The visuals in this game are also pretty great, and the cities in particular look as good as those in Octopath. However, where this game absolutely kills it is the music and gameplay. The job system and Revo's music made this game worth playing, and even if they hadn't been there, I would've played just to see the best part of the game. The characters. I fell in love with them, and I found myself feeling the same emotions they did as the story progressed. Incredible journey all the way through, and this may be one of the few games I hundred percent.",
-        "img_path": "gameimages/bd2.png",
+        "visuals": 2.25,
+        "review_1": "This was my first Tales game that I played all the way through, and it was incredible! Took me about 30 hours to get through, so honestly a bit on the shorter end for RPGs, but I loved every minute of it. The story was engaging, if not a little slow to start up, but the game comfortably compensates for that in many other areas. ",
+        "review_2": "For starters, the music is pretty great. I never did get too much into Tales soundtracks, but this one is definitely top tier. The graphics on PS5 were absolutely amazing, probably the best I've seen in an RPG period. Naturally, my favorite part, as it usually is, was the character: I really came to like them over the course of the story. The inclusion of the skits and the small character moments really fleshed them out for me, and they all had some kind of growth path throughout the story. Highly, highly recommend, even if it's your first Tales game; you've gotta play this one.",
+        "img_path": "gameimages/toa.png",
+        "console_path": "gameimages/ps5.jpg"
+    },
+    {
+        "title": "Voice of Cards: The Isle Dragon Roars",
+        "code": "voc",
+        "story": 2,
+        "gameplay": 1,
+        "characters": 2,
+        "music": 2,
+        "visuals": 2.5,
+        "review_1": "Rock solid RPG. I quite enjoyed the demo, and I was glad to see that the full game lived up to it and more. The story was intriguing, the multiple endings were kind of fun, the gameplay was surprisingly addicting and more. However, I really can't say enough good about the music and visuals. Literally everything in the game is portrayed on cards, and I loved the creativity that came along with that idea, from having card towns/worlds to card characters and bosses.",
+        "review_2": "The only gripe I have about this game is that it's too short. I was able to beat it and get the true ending in around 9 hours, and the game costs 30 bucks. Also the dungeons got a little grindy towards the end, but other than that, this game is incredible. Highly recommend to any RPG fan, and any Switch game if they can find it on sale.",
+        "img_path": "gameimages/voc.PNG",
         "console_path": "gameimages/nswitch.png"
     },
     {
-        "title": "Hyrule Warriors: Age of Calamity",
-        "code": "hwaoc",
-        "story": 1.5,
-        "gameplay": 2,
-        "characters": 2,
+        "title": "Trails of Cold Steel III",
+        "code": "tocs3",
+        "story": 2.5,
+        "gameplay": 1.75,
+        "characters": 2.25,
         "music": 2,
-        "visuals": 2,
-        "review_1": "My first game from the Warriors series, and clearly it was a great place to start. A retelling of the prelude from Breath of the Wild, except the time travel antics keep it exciting and powerful right up to the very end. Has the best of both worlds: Warriors gameplay and music and BoTW story + graphics + characters.",
-        "review_2": "The gameplay was strangely satisfying, even if it did become a bit repetitive. There's just something inherently awesome about beating the crap out of so many monsters, when I was getting dunked on by one or two in BoTW. The music was also surprisingly great, and the Warriors team did a fantastic job of incorporating the BoTW style and assets into this game. Story was also much better, characters were more developed, and it was overall more fun to play. Loved it!",
-        "img_path": "gameimages/hwaoc.jpg",
+        "visuals": 1.5,
+        "review_1": "Amazing. I mean, really amazing. There are so many things this game does well that it's honestly mind boggling. I feel like the developers thought of everything, from quality of life improvements right down to keeping the intensity going at story events despite level ups. It has built-in Poker and Blackjack, a bike racing part, actual books that you can find throughout the game, and so much more attention to detail that it makes you realize how much the developers cared about this game.",
+        "review_2": "But moving on to the actual review. This game, and series, probably contains the best worldbuilding I have ever seen. There are so many interconnected storylines, amazing characters, betrayals, plot twists, secrets, and more. It's got love, vengeance, betrayal, genocide, politics, war, and so much more. Obviously the story and characters are amazing as a result, and getting to hang out with them over like 4 games makes it even better. The gameplay is some solid turn-based combat, better than most others I've seen. The music is absolutely insane. And the only bad thing I can really say about it is that the visuals aren't THAT great. But honestly who cares. Would really recommend this title to any RPG fan, and get yourself some of that free DLC on the Switch version while you're at it.",
+        "img_path": "gameimages/tocs3.png",
         "console_path": "gameimages/nswitch.png"
     },
     {
@@ -33,8 +46,9 @@ games =  [
         "characters": 2,
         "music": 2,
         "visuals": 2,
-        "review_1": "The true culmination of the Fire Emblem series so far. I've played a majority of the games prior to this one, and Three Houses just gets everything correct. From having some of the series' best characters (Claude, Petra, Dmitri, Hapi) and the most hateable villains (you know who you are), it's just a great game overall.",
+        "review_1": "The true culmination of the Fire Emblem series so far. I've played a majority of the games prior to this one, and Three Houses just gets everything correct. From having some of the series' best characters (Claude, Petra, Dimitri, Hapi) and the most hateable villains (you know who you are), it's just a great game overall.",
         "review_2": "As usual, the gameplay is the perfect strategy style I was expecting, if not a tiny bit too easy. The music is ungodly, easily the best in the series so far, and that even includes the short DLC story's. Visuals are also a series best, and the story wouldn't be so great if it weren't for the fact that Three Houses has many different paths, which throws the replayability off the charts. Highly recommend this game to FE newcomers and veterans alike.",
+        "review_3": "Update: I just beat Maddening.",
         "img_path": "gameimages/fe3h.jpg",
         "console_path": "gameimages/nswitch.png"
     },
@@ -76,6 +90,111 @@ games =  [
         "review_2": "The story is pretty solid, (kinda Xenoblade-esque), and the gameplay is more addicting than you'd expect. But where this game really blows it out of the park is the characters, music, and art style. The music in particular is a great mix of elevator music and exciting lyrical tracks, and everything else is so fresh that the entire game feels like a once-in-a-lifetime experience. I cannot wait for Strikers to come out just so I can spend some more time with this great cast of characters. Highly, highly recommend.",
         "img_path": "gameimages/p5.png",
         "console_path": "gameimages/ps3.jpg"
+    },
+    {
+        "title": "Ring Fit Adventure",
+        "code": "rfa",
+        "story": 1.25,
+        "gameplay": 2.5,
+        "characters": 1.25,
+        "music": 2,
+        "visuals": 2,
+        "review_1": "This game is the first fitness game that I actually got into, and I think it was a rock-solid choice. I think a lot of people underestimate it since it looks kinda kiddy and the exercise doesn't look that hard, but be warned: if you're set the right difficulty level, it can actually be a pretty sick workout. I'd usually end my half-hour sessions covered in sweat, even if I was freezing just before and had the fan on.",
+        "review_2": "The other thing that kinda surprised me about this game was the length. Apparently it has 23 worlds, and as of writing this review, I've played for plenty of hours but only reached world 8, and there's always so much stuff to do. I'm hoping to keep playing this game for a long time, and then New Game + and ++ after that. Highly recommend this to any gamer, especially if you're trying to stay healthier: let's get fit!",
+        "img_path": "gameimages/rfa.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Pokemon Insurgence",
+        "code": "pi",
+        "story": 2,
+        "gameplay": 1.75,
+        "characters": 1.5,
+        "music": 1.25,
+        "visuals": 2,
+        "review_1": "Best Pokemon game I've played, except *maybe* the gen 6 ones (for visual reasons). This was the first Pokemon fan game that I completed, and it was too addicting. The fans know what they want from the Pokemon franchise, and they built it into this game; optional HMs, cool mega evolutions, Pokemon with type variants, an engaging story, and more. Also the fact that it's completely free is insane: I'd advise any Pokemon fan to play it as soon as possible.",
+        "review_2": "In terms of the categories, the story was darker and deeper than any other Pokemon game, which I really enjoyed. The gameplay, aside from a couple minor quirks I just don't like about Pokemon games, was pretty solid too, and it looks almost as good as any DS game. The characters and music left a little to be desired, but that's pretty standard across the Pokemon industry, and certainly excusable for the small team that made this game. Comfortably deserving of the high score it got!",
+        "img_path": "gameimages/pi.png",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Pokemon Brilliant Diamond/Shining Pearl",
+        "code": "pbdsp",
+        "story": .5,
+        "gameplay": 2.5,
+        "characters": .5,
+        "music": 2,
+        "visuals": 1,
+        "review_1": "Not bad, honestly. Definitely better than Sword and Shield because it wasn't trying to be something that it isn't, but for some reason it just wasn't as good as I remember. Maybe I was comparing it to Platinum so it never stood much of a chance, but it feels like they took out more from the originals than they added.",
+        "review_2": "The only things they added really were experience sharing, the fairy type, and updated graphics. The Underground feels like it's missing a lot of stuff, which was a shame. However, most of the game is a truly faithful remake and is exactly what you'd expect. Pokemon is just an overall low quality franchise, but the nostalgia factor and good music carried this to a half-decent score in my book. I'd probably recommend it at a discount.",
+        "img_path": "gameimages/pbdsp.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Trails of Cold Steel IV",
+        "code": "tocs4",
+        "story": 2.25,
+        "gameplay": 2,
+        "characters": 2.5,
+        "music": 2.25,
+        "visuals": 1,
+        "review_1": "Honestly, I don't know if there's enough good I can say about this series. Absolutely incredible journey from start to finish, and my god was the ending of this game worth it. I've probably put in triple digit hours into the games and game movies for this series, and I'm so happy that I found the time to be able to do that. Easily the most amazing game world I've ever seen, with incredible characters and storylines throughout.",
+        "review_2": "The actual review part of this almost exactly matches that of Cold Steel III. The gameplay is relatively unchanged, the music is somehow better, and the characters really shine in this one even more. I took away some points from visuals just because I wanted to give them to the other categories, but the graphics are a series best anyway. Cannot recommend this game enough, and I liked it so much that I considered giving it GoTY 2021 even though the prequel won the year prior.",
+        "review_3": "Oh and by the way, top 10 characters: Crow, Rean, Alisa, Emma, Towa, and New Class VII, in no particular order.",
+        "img_path": "gameimages/tocs4.png",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Warioware: Get it Together!",
+        "code": "wwgit",
+        "story": .5,
+        "gameplay": 3,
+        "characters": 1.5,
+        "music": 1.25,
+        "visuals": 2,
+        "review_1": "My first Warioware game! It's actually way more fun than I thought it was going to be. I was able to finish the story mode reasonably quickly (it's really short), but the number of microgames throughout this thing is absolutely insane. There's also a really large amount of unique characters, each of which move in a different way, so mixing characters and games becomes one of the best parts of Warioware.",
+        "review_2": "The game definitely places it's focus on the gameplay, and it certainly delivers in that area. Party gameplay especially is super fun, so make sure to gather some friends if you can! I was also very impressed by the visuals and art style, and the music and character interactions weren't too shabby. Sadly the story was basically nonexistent, but since it's a Mario (or Wario) title, I suppose that's to be expected. If you're looking for a party game, this is definitely one to pick up.",
+        "img_path": "gameimages/wwgit.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Ys IX: Monstrum Nox",
+        "code": "ysix",
+        "story": 2,
+        "gameplay": 2,
+        "characters": 2.25,
+        "music": 2.25,
+        "visuals": 1,
+        "review_1": "Really solid sequel. I was concerned that this game was not going to live up to Ys VIII, but I was wrong. It does fall short of its predecessor in some aspects (like the story), but it makes up for it in others, such as the gameplay and music. The visuals, sadly, are almost exactly as bad, but Falcom has never been a company to focus too much on graphics, instead choosing to focus on solid game content and experience.",
+        "review_2": "I liked the way the story chapters were structured here, with each character (or Monstrum) getting a chapter to introduce them and their conflict, plus 3 chapters at the end to wrap up the overarching story. Falcom always does a good job with foreshadowing, and this game was certainly no exception. However, I think the best part of this game in particular was the gameplay. The new Monstrum Gifts system allows for some pretty cool platforming, and it makes the Prison City of Balduq feel a lot less restricted than it would otherwise. I also have to say that I'm a fan of this action-style gameplay more than how the Trails series play, so I hope they manage to merge these two styles or something in future Trails games. Definitely a recommend from me to any action RPG fan.",
+        "img_path": "gameimages/ysix.PNG",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "The Great Ace Attorney Chronicles",
+        "code": "gaa",
+        "story": 2,
+        "gameplay": 1.5,
+        "characters": 2.25,
+        "music": 2.25,
+        "visuals": 2,
+        "review_1": "Fantastic game! I've been starved for Ace Attorney content for a long time, so hearing about a 2-game collection (and on the Switch no less!) was very welcome news indeed. I'm happy to say this game exceeded all of my expectations, despite my having already watched a playthrough of Adventures a long time ago. What I didn't realize before is how much Adventures is a setup for Resolve, and playing the two games in conjunction was a much better experience than just the first.",
+        "review_2": "All of the standard elements of Ace Attorney are there, with some added gameplay elements like Summation Examinations or Deductions. I will say the gameplay was a little easier than I expected, and I definitely had more trouble with previous titles in the series. However, everything else was just perfect. Music and visuals were both clearly a series best, and the story was very intriguing because it spanned 10 cases rather than the usual 4-5. The characters were also fantastic, with one of them becoming my favorite in the whole series. Highly recommend this game to any Ace Attorney fan, and if it's potentially your first Ace Attorney game, give it a go!",
+        "img_path": "gameimages/gaa.png",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Bravely Default II",
+        "code": "bd2",
+        "story": 1.75,
+        "gameplay": 2,
+        "characters": 2.25,
+        "music": 2.25,
+        "visuals": 1.75,
+        "review_1": "One of the best games I have ever played, and easily one of my favorites. I bought this one cause I loved Bravely Second on 3DS, but this one somehow blew it out of the water. Highly, highly recommend this one to any RPG fan.",
+        "review_2": "The story, despite using a relatively cliche premise, is actually pretty solid. There were plot twists and endings that I didn't see coming, which is always a good sign. The visuals in this game are also pretty great, and the cities in particular look as good as those in Octopath. However, where this game absolutely kills it is the music and gameplay. The job system and Revo's music made this game worth playing, and even if they hadn't been there, I would've played just to see the best part of the game; the characters. I fell in love with them, and I found myself feeling the same emotions they did as the story progressed. Incredible journey all the way through, and this may be one of the few games I hundred percent.",
+        "img_path": "gameimages/bd2.png",
+        "console_path": "gameimages/nswitch.png"
     },
     {
         "title": "Hades",
@@ -142,6 +261,19 @@ games =  [
         "review_1": "A solid buy, especially for Mario fans. If you never got the chance to play 3D world on the Wii U, you should definitely pick this one up. It's one of the most fun party games out there, and benefits greatly from any kind of multiplayer setting. Bowser's Fury is also pretty good, just a bit too short for my liking.",
         "review_2": "Everyone loves Mario, and this game certainly delivers on the gameplay aspect. The camera is a bit annoying at times, and there's no story, but it's still a solid game overall. Would certainly recommend for anyone who doesn't have the Wii U one, and would only recommend otherwise if you've got some friends who'd like to play online with you. And if they don't suck like mine.",
         "img_path": "gameimages/smbf.jpg",
+        "console_path": "gameimages/nswitch.png"
+    },
+    {
+        "title": "Hyrule Warriors: Age of Calamity",
+        "code": "hwaoc",
+        "story": 1.5,
+        "gameplay": 2,
+        "characters": 2,
+        "music": 2,
+        "visuals": 2,
+        "review_1": "My first game from the Warriors series, and clearly it was a great place to start. A retelling of the prelude from Breath of the Wild, except the time travel antics keep it exciting and powerful right up to the very end. Has the best of both worlds: Warriors gameplay and music and BoTW story + graphics + characters.",
+        "review_2": "The gameplay was strangely satisfying, even if it did become a bit repetitive. There's just something inherently awesome about beating the crap out of so many monsters, when I was getting dunked on by one or two in BoTW. The music was also surprisingly great, and the Warriors team did a fantastic job of incorporating the BoTW style and assets into this game. Story was also much better, characters were more developed, and it was overall more fun to play. Loved it!",
+        "img_path": "gameimages/hwaoc.jpg",
         "console_path": "gameimages/nswitch.png"
     },
     {
@@ -322,7 +454,7 @@ games =  [
         "music": 1.5,
         "visuals": 0,
         "review_1": "Absolute pile of dog****. I hate the Pokemon fanbase with a passion, so I refused to spend money on this game, instead playing it off a friend's account, and I still didn't get my money's worth. Characters are annoying, visuals are worse than Pokemon XD on the GameCube, the new Pokemon are honestly trash, and man the story is bad. The villain's intentions don't even make any sense, and the big crazy battle honestly felt super lame.",
-        "review_2": "",
+        "review_2": "I will say the music was pretty good, particularly that one track that Toby Fox helped with. But other than that, nothing stood out about it; it's just a low quality franchise. Don't waste your time with this one.",
         "img_path": "gameimages/psps.jpg",
         "console_path": "gameimages/nswitch.png"
     },
@@ -497,18 +629,17 @@ games =  [
     },
 ]
 
-/*
-{
-    "title": "",
-    "code": "",
-    "story": 2,
-    "gameplay": 2,
-    "characters": 2,
-    "music": 2,
-    "visuals": 2,
-    "review_1": "",
-    "review_2": "",
-    "img_path": "gameimages/.jpg",
-    "console_path": "gameimages/nswitch.png"
+// Sort the games array by descending score
+function getScore(game) {
+    score = game.story + game.characters + game.gameplay + game.music + game.visuals;
+    if (score > 10) {
+        score = 9.99;
+    }
+    return score;
 }
-*/
+
+games.sort((g1, g2) => {
+    score1 = getScore(g1);
+    score2 = getScore(g2);
+    return score1 <= score2 ? 1 : -1;
+});

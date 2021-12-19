@@ -32,9 +32,9 @@ for(var i = 0; i < games.length; i++) {
     var ip = game.img_path;
     var cp = game.console_path;
     var guest = '';
-    if ('guest' in game) {
-        guest = game.guest;
-    }
+    var r3 = '';
+    if ('guest' in game) { guest = game.guest; }
+    if ('review_3' in game) { r3 = game.review_3; }
 
     var scoreSlot = total;
     if (total == 0) { scoreSlot = "??"; }
@@ -51,6 +51,9 @@ for(var i = 0; i < games.length; i++) {
     if (r2.length > 0) { div.innerHTML += `<hr><h5 class="reviewtext">${r2}</h5>`; }
     if (guest.length > 0) {
         div.innerHTML += `<h5 class="title">Guest review: ${guest}</h5>`;
+    }
+    if (r3.length > 0) {
+        div.innerHTML += `<hr><h5 class="reviewtext">${r3}</h5>`;
     }
     document.getElementById('reviewSection').appendChild(div);
 
