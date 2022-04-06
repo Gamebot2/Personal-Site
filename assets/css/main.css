@@ -154,10 +154,6 @@ input::-moz-focus-inner {
 input,
 select,
 textarea {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
 }
 
 
@@ -199,9 +195,8 @@ input,
 textarea,
 select {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19pt;
+    font-size: 20pt;
     font-weight: 300;
-    line-height: 1.75em;
     color: #888;
 }
 
@@ -266,7 +261,7 @@ footer {
 
 strong,
 b {
-    font-weight: 300;
+    font-weight: bolder;
     color: #666;
 }
 

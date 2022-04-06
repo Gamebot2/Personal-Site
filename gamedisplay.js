@@ -1,10 +1,24 @@
 var currentId = "";
 
+function filterByScore() {
+    var scorefilter = document.getElementById('scorefilter').value;
+    var datefilter = document.getElementById('datefilter').checked;
+    clearColumns();
+    genColumns(scorefilter, datefilter);
+}
+
+function filterByDate() {
+    var datefilter = document.getElementById('datefilter').checked;
+    var scorefilter = document.getElementById('scorefilter').value;
+    clearColumns();
+    genColumns(scorefilter, datefilter);
+}
+
 function toggleReview(id) {
-    if(currentId.length > 0) {
+    if (currentId.length > 0) {
         document.getElementById(currentId).style.display = 'none';
     }
-    if(id == currentId) {
+    if (id == currentId) {
         document.getElementById(id).style.display = 'none';
         currentId = "";
     } else {
@@ -13,56 +27,79 @@ function toggleReview(id) {
     }
 }
 
-var column = 0;
-
-for(var i = 0; i < games.length; i++) {
-    var game = games[i];
-
-    // Get variables
-    var title = game.title;
-    var code = game.code;
-    var story = game.story;
-    var gameplay = game.gameplay;
-    var characters = game.characters;
-    var music = game.music;
-    var visuals = game.visuals;
-    var total = story + gameplay + characters + music + visuals;
-    var r1 = game.review_1;
-    var r2 = game.review_2;
-    var ip = game.img_path;
-    var cp = game.console_path;
-    var guest = '';
-    var r3 = '';
-    if ('guest' in game) { guest = game.guest; }
-    if ('review_3' in game) { r3 = game.review_3; }
-
-    var scoreSlot = total;
-    if (total == 0) { scoreSlot = "??"; }
-    if (total > 10) { scoreSlot = "10*"; }
-
-    // Create the review div and append it to the reviewSection element
-    const div = document.createElement('div');
-
-    div.id = code;
-    div.className = 'review';
-
-    div.innerHTML += `<h5 class="title">${title}</h5>`;
-    div.innerHTML += `<h5 class="reviewtext">${r1}</h5>`;
-    if (r2.length > 0) { div.innerHTML += `<hr><h5 class="reviewtext">${r2}</h5>`; }
-    if (guest.length > 0) {
-        div.innerHTML += `<h5 class="title">Guest review: ${guest}</h5>`;
+function clearColumns() {
+    for (var column = 0; column < 4; column++) {
+        column_id = `Column${column}`;
+        document.getElementById(column_id).innerHTML = "";
     }
-    if (r3.length > 0) {
-        div.innerHTML += `<hr><h5 class="reviewtext">${r3}</h5>`;
-    }
-    document.getElementById('reviewSection').appendChild(div);
+}
+
+function genColumns(scorefilter, datefilter) {
+    var column = 0;
+
+    //var displayedGames = games.filter(game => game.tags.includes('RPG'));
+    var displayedGames = games;
+
+    for (var i = 0; i < displayedGames.length; i++) {
+        var game = games[i];
+
+        // Get variables
+        var title = game.title;
+        var code = game.code;
+        var story = game.story;
+        var gameplay = game.gameplay;
+        var characters = game.characters;
+        var music = game.music;
+        var visuals = game.visuals;
+        var total = story + gameplay + characters + music + visuals;
+        var r1 = game.review_1;
+        var r2 = game.review_2;
+        var ip = game.img_path;
+        var cp = game.console_path;
+        var guest = '';
+        var r3 = '';
+        if ('guest' in game) { guest = game.guest; }
+        if ('review_3' in game) { r3 = game.review_3; }
+
+        var scoreSlot = total;
+        if (total == 0) { scoreSlot = "??"; }
+        if (total > 10) { scoreSlot = "10*"; }
+
+        if (scorefilter) {
+            if (total < scorefilter) {
+                continue;
+            }
+        }
+
+        if (datefilter) {
+            if (!game.recent) {
+                continue;
+            }
+        }
+
+        // Create the review div and append it to the reviewSection element
+        const div = document.createElement('div');
+
+        div.id = code;
+        div.className = 'review';
+
+        div.innerHTML += `<h5 class="title">${title}</h5>`;
+        div.innerHTML += `<h5 class="reviewtext">${r1}</h5>`;
+        if (r2.length > 0) { div.innerHTML += `<hr><h5 class="reviewtext">${r2}</h5>`; }
+        if (guest.length > 0) {
+            div.innerHTML += `<h5 class="title">Guest review: ${guest}</h5>`;
+        }
+        if (r3.length > 0) {
+            div.innerHTML += `<hr><h5 class="reviewtext">${r3}</h5>`;
+        }
+        document.getElementById('reviewSection').appendChild(div);
 
 
-    // Create the image div and append to appropriate ColumnI element
-    const article = document.createElement('article');
-    article.className = 'item';
-    
-    article.innerHTML += `
+        // Create the image div and append to appropriate ColumnI element
+        const article = document.createElement('article');
+        article.className = 'item';
+
+        article.innerHTML += `
         <a class="image fit" onclick="toggleReview('${code}')">
             <img src="${ip}" alt="" />
         </a>
@@ -87,7 +124,10 @@ for(var i = 0; i < games.length; i++) {
         </table>
     `;
 
-    column_id = `Column${column}`;
-    document.getElementById(column_id).appendChild(article);
-    column = (column + 1) % 3;
+        column_id = `Column${column}`;
+        document.getElementById(column_id).appendChild(article);
+        column = (column + 1) % 4;
+    }
 }
+
+genColumns();

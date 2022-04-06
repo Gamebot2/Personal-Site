@@ -11,6 +11,7 @@
     font-size: 35px;
     position: relative;
     top: 10px;
+    right: 10px;
 }
 
 table td {
@@ -20,12 +21,11 @@ table td {
 .hullo {
     position: relative;
     background-color: white;
-    width: 30%;
 }
 
 .switch {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     bottom: 10px;
     right: 10px;

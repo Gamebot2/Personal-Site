@@ -62,6 +62,51 @@
             </div>
         </section>
 
+        <section id="about" class="three">
+            <div class="container" style="align-content:center;">
+
+                <header>
+                    <h2>Game Highlight</h2>
+                </header>
+
+                <div class="" style="margin: 40px 0 0;">
+                    <div id="ColumnMinus1" class="col-12 col-12-mobile">
+                        <article class="item">
+                            <a class="image fit">
+                                <img src="gameimages/xc3.jpg" alt="">
+                            </a>
+                            <table style="padding: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <header>
+                                                <div class="ratings" style="text-align: left; width: 75%;">
+                                                    <h5>I've never been this excited for a game.</h5>
+                                                    <h5>
+                                                        Xenoblade Chronicles 3 releases in <strong>September 2022</strong>, and it's the direct successor to the
+                                                        stories of both Xenoblade 1 and 2. The trailer, shown in the February 9th direct, already looks amazing.
+                                                        The protagonists, Noah and Mio, are from the rival nations of Keves and Agnus, and they are joined by 
+                                                        their allies Lanz, Eunie, Sena, and Taion in a "grand adventure with 'life' as its central theme". There's
+                                                        a plethora of references to the previous titles in the trailer, including the Mechonis Sword and Urayan 
+                                                        Titan in the background of the image above. I cannot wait to get my hands on this one.
+                                                    </h5>
+                                                </div>
+                                            </header>
+                                        </td>
+                                        <td class="hullo" style="width: 7%;">
+                                            <img class="switch" src="gameimages/nswitch.png">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <!-- Portfolio -->
         <section id="portfolio" class="two">
             <div class="container">
@@ -73,16 +118,40 @@
                     shortcomings elsewhere. I recommend anything above a 6. Click each image for a more in-depth review.
                 </p>
 
+
+                <div class="row"
+                    style="display: flex; flex-direction: row; align-items: center; justify-content: center;margin-bottom: 1em;">
+                    <div>
+                        <input type="checkbox" id="datefilter" name="datefilter" onchange="filterByDate()">
+                        <label for="vehicle1"> Only recent/upcoming games</label><br>
+                    </div>
+                    <!-- <div>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Only RPGs </label><br>
+                    </div> -->
+                    <div>
+                        <input type="number" id="scorefilter" name="scorefilter" style="width: 2em;margin-right: 6px;"
+                            oninput="filterByScore()">
+                        <label for="vehicle1"> Score Filter </label><br>
+                    </div>
+                </div>
+
                 <div class="row">
                     <!-- LEFT COLUMN -->
-                    <div id="Column0" class="col-4 col-12-mobile"></div>
+                    <div id="Column0" class="col-3 col-12-mobile"></div>
 
                     <!-- MIDDLE COLUMN -->
-                    <div id="Column1" class="col-4 col-12-mobile"></div>
+                    <div id="Column1" class="col-3 col-12-mobile"></div>
 
                     <!-- RIGHT COLUMN -->
-                    <div id="Column2" class="col-4 col-12-mobile"></div>
+                    <div id="Column2" class="col-3 col-12-mobile"></div>
+
+                    <!-- RIGHT RIGHT COLUMN -->
+                    <div id="Column3" class="col-3 col-12-mobile"></div>
+
+
                 </div>
+
             </div>
         </section>
 
